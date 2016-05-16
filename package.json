@@ -1,0 +1,20 @@
+{
+  "name": "todobackend-specs",
+  "version": "0.1.0",
+  "description": "Todobackend Acceptence Tests",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "John Kelly",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.3.5",
+    "chai": "^3.5.0",
+    "chai-as-promised": "^5.3.0",
+    "mocha": "^2.4.5",
+    "mocha-jenkins-reporter": "^0.2.2",
+    "superagent": "^1.8.3",
+    "superagent-promise": "^1.1.0"
+  }
+}
